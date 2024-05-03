@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RockPaperScissors.Pages.Game"
+             BackgroundColor="Grey">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout Grid.Row="0" Spacing="15" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label x:Name="ResultLabel" FontSize="30" HorizontalOptions="Center" TextColor="Green"/>
+            <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center">
+                <VerticalStackLayout>
+                    <Label Text="Player's Pick" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Green" />
+                    <Label x:Name="PlayerChoice" FontSize="48"  />
+                </VerticalStackLayout>
+                <Label Text="VS" FontSize="48" VerticalOptions="Center" TextColor="White"/>
+                <VerticalStackLayout>
+                    <Label Text="Computer's Pick" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Green"/>
+                    <Label x:Name="ComputerChoice" FontSize="48" />
+                </VerticalStackLayout>
+            </StackLayout>
+        </VerticalStackLayout>
+
+        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" Spacing="15" Padding="15">
+            <Button x:Name="ScissorsButton" Text="scissor" FontSize="30" Clicked="OnButtonClicked" ClassId="Scissors" BackgroundColor="Red"/>
+            <Button x:Name="RockButton" Text="rock" FontSize="30" Clicked="OnButtonClicked" ClassId="Rock" BackgroundColor="Red"/>
+            <Button x:Name="PaperButton" Text="paper" FontSize="30" Clicked="OnButtonClicked" ClassId="Paper" BackgroundColor="Red"/>
+            <Button Text="Next Round" Clicked="OnNextRoundClicked" BackgroundColor="Red"/>
+            <Button Text="Exit" Clicked="OnExitClicked" BackgroundColor="Red"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
+    

@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RockPaperScissors
+build_property.ProjectDir = E:\UnityWork3\Projects After 4_3\OOP_project\geda-main\geda-main\RockPaperScissors\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/Pages/Game.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.Pages.Game.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Game.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Game.xaml
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/Pages/MainMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.Pages.MainMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainMenu.xaml
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/Pages/Statistics.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.Pages.Statistics.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Statistics.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Statistics.xaml
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/UnityWork3/Projects After 4_3/OOP_project/geda-main/geda-main/RockPaperScissors/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RockPaperScissors.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
